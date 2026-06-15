@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Fisher Hill Association — White Plains, NY</title>
+<meta name="description" content="The Fisher Hill Association — neighborhood posts, events, agendas, and an interactive 3D map of Fisher Hill in White Plains, New York.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Inter+Tight:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<aside class="side">
+  <a class="side-brand" href="index.html">The<br>Fisher&nbsp;Hill<br>Association</a>
+  <div class="side-rule"></div>
+  <nav class="side-nav" aria-label="Main">
+    <a href="posts.html">Neighborhood Posts</a>
+    <a href="events.html">Events</a>
+    <a href="agendas.html">Agendas</a>
+    <a href="about.html">About</a>
+    <a href="join.html">Join the FHA</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <div class="side-foot">Fisher Hill · White Plains, NY<br>A neighborhood association.</div>
+</aside>
+
+<main class="main">
+
+  <div class="hero">
+    <iframe src="map.html" title="Interactive 3D map of Fisher Hill" loading="lazy" scrolling="no"></iframe>
+    <span class="hero-chip"><b>3D fly-through</b> — drag to explore the neighborhood</span>
+    <div class="page-hero-label">Home</div>
+  </div>
+
+  <section class="home-feed">
+    <div class="wrap">
+      <div class="feed-head">
+        <h2>Events around White Plains</h2>
+        <a class="feed-seeall" href="events.html">See all events →</a>
+      </div>
+      <div id="events-feed" data-limit="6"></div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <section>
+      <p class="kicker">Welcome</p>
+      <h1 class="title">A historic White Plains neighborhood, organized.</h1>
+      <p class="lede">Fisher Hill sits within walking distance of downtown White Plains — bounded by the Bronx River Parkway to the west and Post Road to the east, with the hospital, library, train station, and City Center just beyond. The Association keeps neighbors connected and informed.</p>
+      <p style="margin-top:18px"><a class="btn" href="join.html">Join the FHA</a> &nbsp; <a class="btn ghost" href="agendas.html">What's on the agenda</a></p>
+
+      <div class="cards" style="margin-top:30px">
+        <a class="card" href="posts.html"><h3>Neighborhood Posts</h3><p>News &amp; notices from the block.</p></a>
+        <a class="card" href="events.html"><h3>Events</h3><p>Meetings, cleanups, gatherings.</p></a>
+        <a class="card" href="agendas.html"><h3>Agendas</h3><p>City &amp; CNA items affecting Fisher Hill.</p></a>
+        <a class="card" href="about.html"><h3>About</h3><p>The neighborhood &amp; the board.</p></a>
+      </div>
+    </section>
+
+    <div class="foot">The Fisher Hill Association · White Plains, NY · Map: photorealistic 3D via Google Map Tiles &amp; CesiumJS. · <a href="credits.html">Image credits</a></div>
+  </div>
+</main>
+
+<script src="feeds.js"></script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+{
+  "updated": "2026-06-14",
+  "note": "Events drawn from the White Plains / WPCNA community calendar.",
+  "events": [
+    {
+      "title": "Funny Bunny Egg Hunt",
+      "category": "Family",
+      "date": "2026-03-28",
+      "dateLabel": "March 28, 2026",
+      "time": "9:00 AM \u2013 2:00 PM",
+      "location": "White Plains High School North Gym",
+      "summary": "A spring egg hunt for kids, with advance registration and a White Plains High School rain location.",
+      "url": "https://www.cityofwhiteplains.com/Calendar.aspx?CID=26&day=28&month=3&view=list&year=2026",
+      "ctaLabel": "Open city page",
+      "source": "City of White Plains Recreation & Parks"
+    },
+    {
+      "title": "Common Council Meeting",
+      "category": "Civic",
+      "date": "2026-04-06",
+      "dateLabel": "April 6, 2026",
+      "time": "7:00 PM",
+      "location": "Common Council Chamber, City Hall",
+      "summary": "A public Common Council meeting at City Hall.",
+      "url": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=3603&month=4&year=2026&day=6&calType=0",
+      "ctaLabel": "Open city page",
+      "source": "City of White Plains"
+    },
+    {
+      "title": "STEAM Saturday",
+      "category": "Learning",
+      "date": "2026-04-04",
+      "dateLabel": "April 4, 2026",
+      "time": "12:00 PM \u2013 1:00 PM",
+      "location": "White Plains Public Library, Galaxy Hall",
+      "summary": "Hands-on STEAM time for kids in grades 4 through 8 at the White Plains Public Library.",
+      "url": "https://calendar.whiteplainslibrary.org/event/15948977",
+      "ctaLabel": "Open library page",
+      "source": "White Plains Public Library"
+    },
+    {
+      "title": "\"Energize U\" Energy Efficiency Workshop",
+      "category": "Workshop",
+      "date": "2026-04-06",
+      "dateLabel": "April 6, 2026",
+      "time": "5:30 PM \u2013 7:30 PM",
+      "location": "White Plains Public Library Auditorium",
+      "summary": "A workshop on lowering energy bills, with dinner and a free conservation kit.",
+      "url": "https://calendar.whiteplainslibrary.org/event/15920259",
+      "ctaLabel": "Open library page",
+      "source": "White Plains Public Library"
+    },
+    {
+      "title": "English Conversation Group",
+      "category": "Community",
+      "date": "2026-04-09",
+      "dateLabel": "April 9, 2026",
+      "time": "2:00 PM \u2013 3:00 PM",
+      "location": "White Plains Public Library Community Room",
+      "summary": "A free drop-in group for adults who want to practice everyday English.",
+      "url": "https://calendar.whiteplainslibrary.org/event/15664657",
+      "ctaLabel": "Open library page",
+      "source": "White Plains Public Library"
+    },
+    {
+      "title": "Catch Me If You Can",
+      "category": "Arts",
+      "date": "2026-04-10",
+      "dateLabel": "April 10, 2026",
+      "time": "",
+      "location": "White Plains Performing Arts Center",
+      "summary": "A spring run of the musical at the White Plains Performing Arts Center.",
+      "url": "https://wppac.com/",
+      "ctaLabel": "Open show page",
+      "source": "White Plains Performing Arts Center"
+    },
+    {
+      "title": "Downtown White Plains Wing Walk 2026",
+      "category": "Food & Downtown",
+      "date": "2026-04-25",
+      "dateLabel": "April 25, 2026",
+      "time": "12:00 PM \u2013 5:00 PM",
+      "location": "Downtown White Plains",
+      "summary": "A ticketed wing tasting across downtown White Plains, with voting and stops at local restaurants.",
+      "url": "https://wpbid.com/events/downtown-white-plains-wing-walk-2026/",
+      "ctaLabel": "Get tickets",
+      "source": "White Plains Business Improvement District"
+    },
+    {
+      "title": "Downtown White Plains Rock the Block 2026",
+      "category": "Music & Family",
+      "date": "2026-05-20",
+      "dateLabel": "May 20, 2026",
+      "time": "5:30 PM \u2013 8:30 PM",
+      "location": "Mamaroneck Avenue Streetscape",
+      "summary": "A free downtown street series with live music, food, games, and room to hang out.",
+      "url": "https://wpbid.com/events/rock-the-block-2026/",
+      "ctaLabel": "Open event page",
+      "source": "White Plains Business Improvement District"
+    },
+    {
+      "title": "WPCNA Neighborhood Workshop",
+      "category": "Workshop",
+      "date": "2025-03-11",
+      "dateLabel": "March 11, 2025",
+      "time": "",
+      "location": "WPCNA Workshop Venue",
+      "summary": "Workshop materials from WPCNA's first annual session for people starting or reviving neighborhood associations.",
+      "url": "/workshops/",
+      "ctaLabel": "Get the materials",
+      "source": "White Plains Council of Neighborhood Associations"
+    },
+    {
+      "title": "Final Vision Zero Public Meeting",
+      "category": "Civic",
+      "date": "2025-04-24",
+      "dateLabel": "April 24, 2025",
+      "time": "6:00 PM \u2013 8:00 PM",
+      "location": "White Plains Public Library",
+      "summary": "A public meeting on White Plains street safety and the next steps in the Vision Zero plan.",
+      "url": "https://whiteplainsvisionzero-vhb.hub.arcgis.com/",
+      "ctaLabel": "Open project page",
+      "source": "City of White Plains"
+    }
+  ]
+}

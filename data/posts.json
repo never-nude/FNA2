@@ -1,0 +1,116 @@
+{
+  "updated": "2026-06-14",
+  "note": "Community postings serving Fisher Hill and White Plains. Reviewed before posting.",
+  "posts": [
+    {
+      "title": "Fisher Hill Association Spring Meeting",
+      "category": "Association News",
+      "fh": true,
+      "date": "2026-05-12",
+      "dateLabel": "May 12, 2026",
+      "time": "7:00 PM",
+      "location": "Education House, Board of Education",
+      "summary": "Monthly meeting of the Fisher Hill Association — neighborhood updates, the hospital expansion, and spring planning. All residents welcome.",
+      "source": "Fisher Hill Association"
+    },
+    {
+      "title": "Fisher Hill Spring Cleanup Walk",
+      "category": "Volunteer",
+      "fh": true,
+      "date": "2026-05-17",
+      "dateLabel": "May 17, 2026",
+      "time": "9:00 AM – 11:30 AM",
+      "location": "Fisher Hill Greenway Entrance",
+      "summary": "Help clear litter, open walking paths, and prepare planting beds along the neighborhood greenway. Gloves and supplies provided.",
+      "source": "Fisher Hill Association"
+    },
+    {
+      "title": "Highlands Rain Garden Workshop",
+      "category": "Workshop",
+      "fh": false,
+      "date": "2026-05-21",
+      "dateLabel": "May 21, 2026",
+      "time": "6:30 PM – 8:00 PM",
+      "location": "Highlands Neighborhood Association Hall",
+      "summary": "Learn simple techniques for reducing stormwater runoff using native plants and small residential rain gardens.",
+      "source": "Highlands Neighborhood Association"
+    },
+    {
+      "title": "White Plains Emergency Preparedness Night",
+      "category": "Civic",
+      "fh": false,
+      "date": "2026-05-28",
+      "dateLabel": "May 28, 2026",
+      "time": "7:00 PM – 8:30 PM",
+      "location": "White Plains Public Library",
+      "summary": "City staff discuss emergency alerts, cooling centers, severe-weather response, and household preparedness. Q&A to follow.",
+      "source": "City of White Plains"
+    },
+    {
+      "title": "Gedney Farms Historic Homes Walking Tour",
+      "category": "History",
+      "fh": false,
+      "date": "2026-06-02",
+      "dateLabel": "June 2, 2026",
+      "time": "5:30 PM – 7:00 PM",
+      "location": "Gedney Farms Preservation District",
+      "summary": "A guided walking tour highlighting several historic homes and neighborhood landmarks within the Gedney Farms area.",
+      "source": "Gedney Farms Preservation Committee"
+    },
+    {
+      "title": "Mamaroneck Avenue Sidewalk Repairs — Public Notice",
+      "category": "Public Notice",
+      "fh": false,
+      "date": "2026-06-05",
+      "dateLabel": "June 5, 2026",
+      "time": "",
+      "location": "Mamaroneck Avenue, Downtown",
+      "summary": "Sectional sidewalk repairs begin the week of June 8. Expect intermittent pedestrian detours along the east side of the avenue.",
+      "source": "City of White Plains Public Works"
+    },
+    {
+      "title": "North Street Community Picnic & Music Evening",
+      "category": "Family",
+      "fh": false,
+      "date": "2026-06-06",
+      "dateLabel": "June 6, 2026",
+      "time": "4:00 PM – 7:00 PM",
+      "location": "Turnure Park",
+      "summary": "Bring blankets and picnic dinners for live acoustic music and family activities. Open lawn space for kids.",
+      "source": "North Street Civic Association"
+    },
+    {
+      "title": "Post Road Parking Garage — Construction Update",
+      "category": "Public Notice",
+      "fh": true,
+      "date": "2026-06-09",
+      "dateLabel": "June 9, 2026",
+      "time": "",
+      "location": "East Post Road & White Plains Hospital",
+      "summary": "Steel work on the new East Post Road garage continues through summer. Expect lane shifts on Post Road and Longview Avenue during weekday hours.",
+      "source": "Fisher Hill Association"
+    },
+    {
+      "title": "Safe Streets Bicycle Visibility Clinic",
+      "category": "Learning",
+      "fh": false,
+      "date": "2026-06-12",
+      "dateLabel": "June 12, 2026",
+      "time": "5:00 PM – 6:30 PM",
+      "location": "Ebersole Ice Rink Parking Area",
+      "summary": "Free bicycle light installation, helmet-fitting guidance, and visibility tips for riders of all ages.",
+      "source": "White Plains Safe Streets Coalition"
+    },
+    {
+      "title": "Walworth Avenue Block Party",
+      "category": "Neighborhood Event",
+      "fh": true,
+      "date": "2026-06-13",
+      "dateLabel": "June 13, 2026",
+      "time": "1:00 PM – 6:00 PM",
+      "location": "Walworth Avenue (Tibbits to Rochambeau)",
+      "summary": "Fisher Hill's annual block party returns — food, music, a kids' zone, and a meet-your-neighbors table. Street closed to traffic.",
+      "source": "Fisher Hill Association"
+    }
+  ]
+}

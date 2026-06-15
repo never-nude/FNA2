@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Neighborhood Posts — The Fisher Hill Association</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Inter+Tight:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<aside class="side">
+  <a class="side-brand" href="index.html">The<br>Fisher&nbsp;Hill<br>Association</a>
+  <div class="side-rule"></div>
+  <nav class="side-nav" aria-label="Main">
+    <a href="posts.html" class="active" aria-current="page">Neighborhood Posts</a>
+    <a href="events.html">Events</a>
+    <a href="agendas.html">Agendas</a>
+    <a href="about.html">About</a>
+    <a href="join.html">Join the FHA</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <div class="side-foot">Fisher Hill · White Plains, NY<br>A neighborhood association.</div>
+</aside>
+
+<main class="main">
+  <div class="page-hero" style="background-image:url('assets/heroes/posts.jpg?v=2')">
+    <div class="page-hero-label">Neighborhood Posts</div>
+  </div>
+  <div class="wrap">
+    <section>
+      <h1 class="title">From around Fisher Hill.</h1>
+      <p class="lede">Updates serving Fisher Hill and White Plains — neighborhood events, civic notices, and volunteer opportunities. Every posting is reviewed before it appears.</p>
+      <div id="posts-feed"></div>
+    </section>
+    <div class="foot">The Fisher Hill Association · White Plains, NY · <a href="credits.html">Image credits</a></div>
+  </div>
+</main>
+
+<script src="feeds.js"></script>
+</body>
+</html>

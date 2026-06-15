@@ -1,0 +1,137 @@
+/* The Fisher Hill Association — shared styles for all pages. */
+:root{
+  --brand:#c01a8f;        /* vivid magenta accent — links, buttons */
+  --brand-deep:#9c1574;   /* deep magenta — sidebar, title blocks */
+  --brand-press:#7a1059;
+  --ink:#211522;
+  --muted:#6b6068;
+  --line:#ebe0e9;
+  --soft:#fceaf6;
+  --gold:#ffd400;          /* matches the map boundary */
+}
+*{ box-sizing:border-box; }
+html,body{ margin:0; }
+body{
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; color:var(--ink); background:#fff;
+  display:flex; min-height:100vh; -webkit-font-smoothing:antialiased;
+}
+a{ color:var(--brand); }
+
+/* ── Sidebar ─────────────────────────────────────────────── */
+.side{
+  flex:0 0 288px; width:288px; background:var(--brand-deep); color:#fff;
+  position:sticky; top:0; align-self:flex-start; height:100vh;
+  display:flex; flex-direction:column; padding:34px 0 24px;
+}
+.side-brand{
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; font-weight:800; font-size:34px; line-height:1.05;
+  letter-spacing:-.01em; padding:0 30px 22px; margin:0; color:#fff; text-decoration:none;
+}
+.side-brand:hover{ opacity:.92; }
+.side-rule{ height:2px; background:rgba(0,0,0,.55); margin:0 30px 10px; }
+.side-nav{ display:flex; flex-direction:column; padding:10px 0; }
+.side-nav a{
+  color:#fff; text-decoration:none; font-size:20px; font-weight:500;
+  padding:15px 30px; line-height:1.2; transition:background .12s;
+  border-left:4px solid transparent;
+}
+.side-nav a:hover, .side-nav a:focus{ background:rgba(255,255,255,.10); }
+.side-nav a.active{ background:rgba(0,0,0,.18); border-left-color:var(--gold); }
+.side-foot{ margin-top:auto; padding:18px 30px 0; font-size:12px; color:rgba(255,255,255,.62); line-height:1.5; }
+
+/* ── Content ─────────────────────────────────────────────── */
+.main{ flex:1; min-width:0; }
+.hero{ position:relative; height:67vh; min-height:340px; background:#0b0d10; }
+.hero iframe{ width:100%; height:100%; border:0; display:block; }
+.hero-chip{
+  position:absolute; left:22px; bottom:18px; z-index:2; pointer-events:none;
+  background:rgba(40,10,32,.72); color:#fff; backdrop-filter:blur(4px);
+  font-size:13px; font-weight:600; padding:7px 13px; border-radius:999px;
+}
+.hero-chip b{ color:var(--gold); font-weight:700; }
+
+/* Per-page hero image band — clean, full-bleed image (no overlay, no text) */
+.page-hero{ position:relative; height:67vh; min-height:340px; background:#9c1574 50%/cover no-repeat; }
+.page-hero-label{ position:absolute; right:clamp(18px,3vw,40px); bottom:clamp(18px,3vw,40px); z-index:2; background:var(--brand-deep); color:#fff;
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; font-weight:800; letter-spacing:-.01em; line-height:1.05;
+  font-size:clamp(1.4rem,3vw,2.3rem); padding:16px clamp(20px,3vw,34px); max-width:85%; }
+
+.wrap{ max-width:920px; padding:0 clamp(22px,5vw,56px); }
+section{ padding:46px 0; border-bottom:1px solid var(--line); }
+section:last-of-type{ border-bottom:0; }
+.kicker{ color:var(--brand); font-weight:700; letter-spacing:.12em; text-transform:uppercase; font-size:12px; margin:0 0 10px; }
+h1.title{ font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; font-weight:800; font-size:clamp(2rem,4vw,2.9rem); line-height:1.05; letter-spacing:-.015em; margin:0 0 14px; }
+h2{ font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; font-weight:700; font-size:clamp(1.5rem,3vw,2rem); line-height:1.12; margin:0 0 14px; letter-spacing:-.01em; }
+h3{ font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; }
+p.lede{ font-size:clamp(16px,1.8vw,19px); line-height:1.65; color:#2b2330; margin:0 0 16px; max-width:65ch; }
+p{ line-height:1.6; color:#352c41; max-width:65ch; }
+
+.btn{
+  display:inline-block; background:var(--brand); color:#fff; text-decoration:none;
+  font-weight:600; font-size:15px; padding:12px 22px; border-radius:10px; transition:background .12s;
+}
+.btn:hover{ background:var(--brand-press); }
+.btn.ghost{ background:transparent; color:var(--brand); border:1.5px solid var(--brand); }
+.btn.ghost:hover{ background:var(--soft); }
+
+.cards{ display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:14px; margin-top:6px; }
+.card{ border:1px solid var(--line); border-left:4px solid var(--brand); border-radius:10px; padding:18px 20px; background:#fff; text-decoration:none; color:inherit; display:block; transition:box-shadow .12s, transform .12s; }
+.card:hover{ box-shadow:0 8px 24px rgba(156,21,116,.18); transform:translateY(-1px); }
+.card h3{ margin:0 0 5px; font-size:17px; }
+.card p{ margin:0; font-size:14px; color:var(--muted); }
+
+.placeholder{ border:1px dashed var(--line); border-radius:10px; padding:22px 24px; background:var(--soft); color:var(--muted); font-size:15px; }
+
+.officers{ list-style:none; margin:14px 0 0; padding:0; display:grid; gap:8px; }
+.officers li{ font-size:16px; }
+.officers strong{ font-weight:600; }
+
+/* Agenda mentions feed (live from fisher-hill-mentions.json) */
+.mins{ list-style:none; margin:14px 0 0; padding:0; display:grid; gap:14px; }
+.mins li{ border:1px solid var(--line); border-left:4px solid var(--brand); border-radius:10px; background:#fff; padding:16px 20px; }
+.min-date{ display:block; font-size:12px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--brand); }
+.mins p{ margin:6px 0 8px; font-size:15px; }
+.mins a{ font-weight:600; font-size:13.5px; text-decoration:none; }
+.mins a:hover{ text-decoration:underline; }
+
+.foot{ padding:30px 0 50px; color:var(--muted); font-size:13px; }
+
+/* ── Events / Posts feed (CNA-style cards) ───────────────── */
+.feed-head{ display:flex; align-items:baseline; justify-content:space-between; gap:16px; flex-wrap:wrap; margin:0 0 18px; }
+.feed-head h2{ margin:0; }
+.feed-seeall{ font-weight:700; font-size:14px; color:var(--brand); text-decoration:none; white-space:nowrap; }
+.feed-seeall:hover{ text-decoration:underline; }
+.feed-note{ font-size:13.5px; color:var(--muted); margin:0 0 18px; }
+.feed-grid{ display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:20px; }
+.feed-card{ display:flex; flex-direction:column; background:#fff; border:1px solid var(--line); transition:border-color .15s, transform .15s; }
+.feed-card:hover{ border-color:var(--brand); transform:translateY(-2px); }
+.feed-card-fh{ border-left:4px solid var(--brand); }
+.feed-body{ display:flex; flex-direction:column; flex:1; padding:20px 22px; }
+.feed-top{ display:flex; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:12px; }
+.feed-tag{ display:inline-block; padding:3px 9px; border:1px solid color-mix(in srgb, var(--brand) 18%, var(--line)); background:var(--soft); color:var(--brand); font-size:11px; font-weight:800; letter-spacing:.07em; text-transform:uppercase; }
+.feed-tag-fh{ background:var(--brand); color:#fff; border-color:var(--brand); }
+.feed-title{ margin:0 0 6px; font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; font-weight:800; line-height:1.22; font-size:clamp(1.15rem,1.8vw,1.4rem); letter-spacing:-.01em; }
+.feed-date{ margin:0 0 6px; font-size:13.5px; font-weight:600; color:#4a4450; }
+.feed-meta{ display:flex; flex-wrap:wrap; gap:2px 16px; font-size:13px; color:var(--muted); margin-bottom:10px; }
+.feed-summary{ margin:0 0 16px; color:#3a333f; font-size:14.5px; line-height:1.5; flex:1; }
+.feed-actions{ display:flex; align-items:center; gap:12px; margin-top:auto; }
+.feed-btn{ display:inline-block; background:var(--brand); color:#fff; text-decoration:none; font-weight:800; font-size:12px; letter-spacing:.07em; text-transform:uppercase; padding:9px 15px; }
+.feed-btn:hover{ background:var(--brand-press); }
+.feed-source{ font-size:12.5px; color:var(--muted); font-style:italic; }
+.feed-empty{ color:var(--muted); }
+.home-feed{ background:var(--soft); border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+.home-feed .wrap{ padding-top:46px; padding-bottom:46px; }
+
+/* ── Responsive: sidebar collapses to a top bar ──────────── */
+@media (max-width:820px){
+  body{ flex-direction:column; }
+  .side{ flex-basis:auto; width:100%; height:auto; position:static; padding:22px 0 10px; }
+  .side-brand{ font-size:27px; padding:0 22px 14px; }
+  .side-rule{ margin:0 22px 6px; }
+  .side-nav{ flex-direction:row; flex-wrap:wrap; padding:6px 12px; gap:2px; }
+  .side-nav a{ font-size:16px; padding:9px 14px; border-left:0; border-radius:8px; }
+  .side-nav a.active{ border-left:0; background:rgba(0,0,0,.22); }
+  .side-foot{ display:none; }
+  .hero{ height:58vh; min-height:260px; }
+  .page-hero{ height:58vh; min-height:260px; }
+}
